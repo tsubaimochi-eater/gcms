@@ -87,7 +87,7 @@ table {
     border-radius: 5px;
     padding: 10px;
     border: 1px solid #f6f3f3;
-    min-width: 300px;
+    
 }
 .radio {
     margin: 0 10px;
@@ -96,35 +96,52 @@ table {
     margin: 0 10px;
 }
 .select {
-    width: 100%;
+    
     
     border-radius: 5px;
     padding: 10px;
     border: 1px solid #f6f3f3;
-    min-width: 300px;
+    
 }
+
+.input,
+.select,
+.textarea {
+    width: 300px;
+    box-sizing: border-box;
+}
+
+
+
 .textarea {
     border-radius: 5px;
     padding: 10px;
     border: 1px solid #f6f3f3;
-    min-width: 300px;
+    
     min-height: 100px;
 }
 
 
-label,input,textarea,select,button {
+label, button {
     cursor: pointer;
 }
 
-table th {
-    padding: 10px;
-    text-align: left;
-}
-
-table td {
-    padding: 10px;
-}
 
 .form-button {
-    text-align: center;
+    text-align: right;
 }
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-title {
+    width: 300px;
+}
+
+.form-row label:first-child {
+    width: 300px;
+}
+
