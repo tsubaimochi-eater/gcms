@@ -96,6 +96,8 @@ table {
     margin: 0 10px;
 }
 .select {
+    width: 100%;
+    
     border-radius: 5px;
     padding: 10px;
     border: 1px solid #f6f3f3;
