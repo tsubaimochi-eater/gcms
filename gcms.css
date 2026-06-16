@@ -87,7 +87,7 @@ table {
     border-radius: 5px;
     padding: 10px;
     border: 1px solid #f6f3f3;
-    
+    /* min-width: 300px; */
 }
 .radio {
     margin: 0 10px;
@@ -96,8 +96,10 @@ table {
     margin: 0 10px;
 }
 .select {
-    
-    
+    /* display: block; */
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+
     border-radius: 5px;
     padding: 10px;
     border: 1px solid #f6f3f3;
@@ -112,12 +114,11 @@ table {
 }
 
 
-
 .textarea {
     border-radius: 5px;
     padding: 10px;
     border: 1px solid #f6f3f3;
-    
+    /* min-width: 300px; */
     min-height: 100px;
 }
 
@@ -127,9 +128,11 @@ label, button {
 }
 
 
+
 .form-button {
     text-align: right;
 }
+
 
 .form-row {
     display: flex;
@@ -144,4 +147,3 @@ label, button {
 .form-row label:first-child {
     width: 300px;
 }
-
