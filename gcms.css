@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+
+
 body {
     color: aliceblue;
 
@@ -18,6 +20,12 @@ body {
     background-attachment: fixed;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 15px;
+        width: 98%;
+}
+
 .container {
     width: 97%;
     display: flex;
@@ -31,6 +39,13 @@ body {
 
 }
 
+@media screen and (max-width: 768px){
+    .container {
+        display: block;
+        font-size: 15px;
+    }
+}
+
 .item {
     background-color: rgba(7, 15, 120, 0.745);
     display: block;
@@ -42,6 +57,20 @@ body {
     position: fixed;
     right: 100px;
     top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .illustration {
+        
+        display: block;
+        position: relative;
+        max-width: 40%;
+        height: auto;
+        right: 50px;
+        top: 0;
+        margin: 40px 20px;
+
+    }
 }
 
 a {
@@ -77,6 +106,12 @@ h1, h2 {
 
 }
 
+@media screen and (max-width: 768px) {
+    h1 {
+        margin-top: 250px;
+    }
+}
+
 table {
     border-collapse: collapse;
 }
@@ -92,6 +127,15 @@ table {
 .radio {
     margin: 0 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .radio {
+        display: flex;
+
+        
+    }
+}
+
 .checkbox {
     margin: 0 10px;
 }
