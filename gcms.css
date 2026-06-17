@@ -192,3 +192,9 @@ label, button {
 .form-row label:first-child {
     width: 300px;
 }
+
+iframe {
+    width: 500px;
+    text-align: center;
+    margin: 50px;
+}
