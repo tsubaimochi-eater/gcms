@@ -94,6 +94,9 @@ a:hover {
     bottom: 30px;
 
     font-weight: bold;
+
+    background-color: rgba(7, 15, 120, 0.745);
+    padding: 10px;
 }
 
 li {
